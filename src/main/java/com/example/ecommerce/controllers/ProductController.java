@@ -18,7 +18,7 @@ import java.util.List;
 @RequestMapping("/api/product")
 public class ProductController {
 
-    private static Logger log = LoggerFactory.getLogger(UserService.class);
+    private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
     @Autowired
     ProductService productService;

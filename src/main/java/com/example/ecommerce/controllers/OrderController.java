@@ -30,7 +30,7 @@ import java.util.concurrent.atomic.AtomicReference;
 @RequestMapping("/api/order")
 public class OrderController {
 
-    private static Logger log = LoggerFactory.getLogger(UserService.class);
+    private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
     private static final String TOKEN_HEADER = "Authorization";
 

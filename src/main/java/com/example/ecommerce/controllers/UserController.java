@@ -21,7 +21,7 @@ import java.util.Optional;
 @CrossOrigin(origins = "*")
 public class UserController {
 
-    private static Logger log = LoggerFactory.getLogger(UserService.class);
+    private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
     private static final String TOKEN_HEADER = "Authorization";
 
