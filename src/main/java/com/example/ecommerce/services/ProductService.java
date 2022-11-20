@@ -1,6 +1,5 @@
 package com.example.ecommerce.services;
 
-import com.example.ecommerce.entities.Order;
 import com.example.ecommerce.entities.Product;
 import com.example.ecommerce.enums.Category;
 
